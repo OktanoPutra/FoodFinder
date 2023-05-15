@@ -5,8 +5,8 @@ class DataSource {
           return response.json();
         })
         .then(responseJson => {
-          if (responseJson.foods) {
-            return Promise.resolve(responseJson.foods);
+          if (responseJson.meals) {
+            return Promise.resolve(responseJson.meals);
           } else {
             return Promise.reject(`${keyword} is not found`);
           }
