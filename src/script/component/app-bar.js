@@ -29,7 +29,7 @@ class AppBar extends HTMLElement {
         }
       </style>
       
-      <h2>Food Finder</h2>
+      <h2>Meal Finder</h2>
     `;
   }
 }
